@@ -1,12 +1,11 @@
 #include <Arduino.h>
 #include <IBMIOTF8266.h>
 
-String user_html = ""
-// USER CODE EXAMPLE : your custom config variable 
-// in meta.XXXXX, XXXXX should match to ArduinoJson index to access
-    "<p><input type='text' name='meta.yourVar' placeholder='Your Custom Config'>";
-                    ;
-// for meta.XXXXX, this var is the C variable to hold the XXXXX
+String user_html = "";
+
+
+
+
 int             customVar1;
 // USER CODE EXAMPLE : your custom config variable
 
